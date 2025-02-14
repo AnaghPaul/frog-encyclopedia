@@ -2,8 +2,59 @@
 <html lang="en">
   <head>
     <title>Frogs | Africa</title>
+    <style>
+      .container {
+        margin: 50px 10px;
+        padding: 10px;
+        border-top: 2px solid dimgray;
+        border-bottom: 2px solid dimgray;
+      }
+
+      .description-card {
+        background-color: ;
+        display: inline-block;
+        box-sizing: border-box;
+        width: 300px;
+        height: 550px;
+        margin: 15px;
+        padding: 10px;
+        border: 2px solid dimgray;
+        border-radius: 15px;
+        box-shadow: 3px 3px 8px gray;
+        text-align: center;
+        vertical-align: top;
+      }
+
+      .description-card:hover {
+        box-shadow: 5px 5px 10px gray;
+        transform: scale(1.01);
+      }
+
+      .specimen-image {
+        /* width: 100%; */
+        /* height: 100%; */
+        text-align: center;
+        max-width: 260px;
+        max-height: 200px;
+        /* height: 200px; */
+        border-radius: 10px;
+      }
+
+      .feature-list {
+        text-align: left;
+      }
+
+      .feature-list-item {
+        font-weight: 600;
+      }
+    </style>
   </head>
-  <body>
+  <body
+    style="
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+    "
+  >
     <header>
       <h1
         style="
@@ -16,158 +67,295 @@
       </h1>
     </header>
 
-    <br />
-    <hr />
-    <section>
-      <header>
-        <h2
-          style="
-            color: rgb(0, 0, 0);
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            text-align: center;
-          "
-        >
-          West Africa
-        </h2>
-      </header>
+    <main>
+      <section class="container">
+        <header><h2>West Africa</h2></header>
 
-      <ol>
-        <li>
-          <div style="display: flex; padding: 50px; font-size: larger">
-            <div style="width: 800px">
-              <h3>Goliath Frog (Conraua goliath)</h3>
-              <ul>
-                <li>
-                  <span style="font-weight: 700">Size:</span> 32 cm (12.6 in);
-                  up to 3.3 kg (7.3 lbs)
-                </li>
-                <li>
-                  <span style="font-weight: 700">Habitat:</span> Fast-flowing
-                  rivers in Cameroon & Equatorial Guinea
-                </li>
-                <li>
-                  <span style="font-weight: 700">Diet:</span> Insects,
-                  crustaceans, small amphibians
-                </li>
-                <li>
-                  <span style="font-weight: 700">Unique Feature:</span> The
-                  largest frog in the world, known to move rocks for
-                  nest-building
-                </li>
-                <li>
-                  <span style="font-weight: 700">Conservation Status:</span>
-                  Endangered due to habitat destruction and poaching
-                </li>
-              </ul>
-            </div>
+        <article class="description-card">
+          <header>
             <img
+              class="specimen-image"
               src="goliath_frog.jpeg"
-              alt="Live specimen of Goliath Frog"
-              style="height: 200px; padding-left: 50px"
+              alt="Live Specimen of African Goliath Frog"
             />
-          </div>
-        </li>
 
-        <li>
-          <div style="display: flex; padding: 50px; font-size: larger">
-            <div style="width: 800px">
-              <h3>Hairy Frog (Trichobatrachus robustus)</h3>
-              <ul>
-                <li>
-                  <span style="font-weight: 700">Size:</span> 11 cm (4.3 in)
-                </li>
-                <li>
-                  <span style="font-weight: 700">Habitat:</span> Rainforests of
-                  Cameroon, Nigeria, and the Congo
-                </li>
-                <li>
-                  <span style="font-weight: 700">Diet:</span> Insects, small
-                  invertebrates
-                </li>
-                <li>
-                  <span style="font-weight: 700">Unique Feature:</span> Breaks
-                  its own toe bones to form sharp claws for defense
-                </li>
-                <li>
-                  <span style="font-weight: 700">Conservation Status</span> Near
-                  Threatened
-                </li>
-              </ul>
-            </div>
+            <h3>Goliath Frog (Conraua goliath)</h3>
+          </header>
+
+          <ul class="feature-list">
+            <li>
+              <span class="feature-list-item">Size:</span> 32 cm (12.6 in); up
+              to 3.3 kg (7.3 lbs)
+            </li>
+
+            <li>
+              <span class="feature-list-item">Habitat:</span> Fast-flowing
+              rivers in Cameroon & Equatorial Guinea
+            </li>
+
+            <li>
+              <span class="feature-list-item">Diet:</span> Insects, crustaceans,
+              small amphibians
+            </li>
+
+            <li>
+              <span class="feature-list-item">Unique Feature:</span> The largest
+              frog in the world, known to move rocks for nest-building
+            </li>
+
+            <li>
+              <span class="feature-list-item">Conservation Status:</span>
+              Endangered due to habitat destruction and poaching
+            </li>
+          </ul>
+        </article>
+        <article class="description-card">
+          <header>
             <img
+              class="specimen-image"
               src="african_hairy_frog.jpeg"
               alt="Specimen of African Hairy Frog"
-              style="height: 200px; padding-left: 50px"
             />
-          </div>
-        </li>
 
-        <li>
-          <div style="display: flex; padding: 50px; font-size: larger">
-            <div style="width: 800px">
-              <h3>Lake Oku Clawed Frog (Xenopus longipes)</h3>
-              <ul>
-                <li>
-                  <span style="font-weight: 700">Size:</span> 4 cm (1.6 in)
-                </li>
-                <li>
-                  <span style="font-weight: 700">Habitat:</span> Endemic to Lake
-                  Oku, Cameroon
-                </li>
-                <li>
-                  <span style="font-weight: 700">Diet:</span> Aquatic
-                  invertebrates
-                </li>
-                <li>
-                  <span style="font-weight: 700">Unique Feature:</span> Fully
-                  aquatic, has no tongue
-                </li>
-                <li>
-                  <span style="font-weight: 700">Conservation Status</span>
-                  Critically Endangered
-                </li>
-              </ul>
-            </div>
+            <h3>Hairy Frog (Trichobatrachus robustus)</h3>
+          </header>
+
+          <ul class="feature-list">
+            <li><span class="feature-list-item">Size:</span> 11 cm (4.3 in)</li>
+
+            <li>
+              <span class="feature-list-item">Habitat:</span> Rainforests of
+              Cameroon, Nigeria, and the Congo
+            </li>
+
+            <li>
+              <span class="feature-list-item">Diet:</span> Insects, small
+              invertebrates
+            </li>
+
+            <li>
+              <span class="feature-list-item">Unique Feature:</span> Breaks its
+              own toe bones to form sharp claws for defense
+            </li>
+
+            <li>
+              <span class="feature-list-item">Conservation Status:</span> Near
+              Threatened
+            </li>
+          </ul>
+        </article>
+        <article class="description-card">
+          <header>
             <img
+              class="specimen-image"
               src="lake_oku_clawed_frog.jpeg"
               alt="Live specimen of Lake Oku Clawed Frog"
-              style="height: 200px; padding-left: 50px"
             />
-          </div>
-        </li>
 
-        <li>
-          <div style="display: flex; padding: 50px; font-size: larger">
-            <div style="width: 800px">
-              <h3>Ivory Coast Reed Frog (Hyperolius soror)</h3>
-              <ul>
-                <li>
-                  <span style="font-weight: 700">Size:</span> 2-4 cm (0.8-1.6
-                  in)
-                </li>
-                <li>
-                  <span style="font-weight: 700">Habitat:</span> Wetlands &
-                  forests in Ivory Coast and Ghana
-                </li>
-                <li><span style="font-weight: 700">Diet:</span> Insects</li>
-                <li>
-                  <span style="font-weight: 700">Unique Feature:</span> Changes
-                  color from green during the day to brown at night
-                </li>
-                <li>
-                  <span style="font-weight: 700">Conservation Status</span>
-                  Least Concern
-                </li>
-              </ul>
-            </div>
+            <h3>Lake Oku Clawed Frog (Xenopus longipes)</h3>
+          </header>
+
+          <ul class="feature-list">
+            <li><span class="feature-list-item">Size:</span> 4 cm (1.6 in)</li>
+
+            <li>
+              <span class="feature-list-item">Habitat:</span> Endemic to Lake
+              Oku, Cameroon
+            </li>
+
+            <li>
+              <span class="feature-list-item">Diet:</span> Aquatic invertebrates
+            </li>
+
+            <li>
+              <span class="feature-list-item">Unique Feature:</span> Fully
+              aquatic, has no tongue
+            </li>
+
+            <li>
+              <span class="feature-list-item">Conservation Status:</span>
+              Critically Endangered
+            </li>
+          </ul>
+        </article>
+
+        <article class="description-card">
+          <header>
             <img
+              class="specimen-image"
               src="ivory_coast_reed_frog.jpeg"
               alt="Live specimen of Ivory Coast Reed Frog"
-              style="height: 200px; padding-left: 50px"
             />
-          </div>
-        </li>
-      </ol>
-    </section>
+
+            <h3>Ivory Coast Reed Frog (Hyperolius soror)</h3>
+          </header>
+
+          <ul class="feature-list">
+            <li>
+              <span class="feature-list-item">Size:</span> 2-4 cm (0.8-1.6 in)
+            </li>
+
+            <li>
+              <span class="feature-list-item">Habitat:</span> Wetlands & forests
+              in Ivory Coast and Ghana
+            </li>
+
+            <li><span class="feature-list-item">Diet:</span> Insects</li>
+
+            <li>
+              <span class="feature-list-item">Unique Feature:</span> Changes
+              color from green during the day to brown at night
+            </li>
+
+            <li>
+              <span class="feature-list-item">Conservation Status:</span> Least
+              Concern
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="container">
+        <header><h2>Central Africa</h2></header>
+
+        <article class="description-card">
+          <header>
+            <img
+              class="specimen-image"
+              src="banded_rubber_frog.jpeg"
+              alt="Live Specimen of Banded Rubber Frog"
+            />
+
+            <h3>Banded Rubber Frog (Phrynomantis bifasciatus)</h3>
+          </header>
+
+          <ul class="feature-list">
+            <li><span class="feature-list-item">Size:</span> 6 cm (2.4 in)</li>
+
+            <li>
+              <span class="feature-list-item">Habitat:</span> Forests & savannas
+              across Central and West Africa
+            </li>
+
+            <li>
+              <span class="feature-list-item">Diet:</span> Insects and small
+              invertebrates
+            </li>
+
+            <li>
+              <span class="feature-list-item">Unique Feature:</span> Bright
+              red-and-black colors warn predators of its toxic skin secretion
+            </li>
+
+            <li>
+              <span class="feature-list-item">Conservation Status:</span> Least
+              Concern
+            </li>
+          </ul>
+        </article>
+        <article class="description-card">
+          <header>
+            <img
+              class="specimen-image"
+              src="cameroon_reed_frog.jpeg"
+              alt="Specimen of Cameroon Reed Frog"
+            />
+
+            <h3>Cameroon Reed Frog (Hyperolius camerunensis)</h3>
+          </header>
+
+          <ul class="feature-list">
+            <li>
+              <span class="feature-list-item">Size:</span> 3-4 cm (1.2-1.6 in)
+            </li>
+
+            <li>
+              <span class="feature-list-item">Habitat:</span> Montane forests of
+              Cameroon
+            </li>
+
+            <li><span class="feature-list-item">Diet:</span> Insects</li>
+
+            <li>
+              <span class="feature-list-item">Unique Feature:</span> One of the
+              rarest frogs in Africa, with a shiny golden color
+            </li>
+
+            <li>
+              <span class="feature-list-item">Conservation Status:</span> Data Deficient
+            </li>
+          </ul>
+        </article>
+        <article class="description-card">
+          <header>
+            <img
+              class="specimen-image"
+              src="lake_oku_clawed_frog.jpeg"
+              alt="Live specimen of Lake Oku Clawed Frog"
+            />
+
+            <h3>Lake Oku Clawed Frog (Xenopus longipes)</h3>
+          </header>
+
+          <ul class="feature-list">
+            <li><span class="feature-list-item">Size:</span> 4 cm (1.6 in)</li>
+
+            <li>
+              <span class="feature-list-item">Habitat:</span> Endemic to Lake
+              Oku, Cameroon
+            </li>
+
+            <li>
+              <span class="feature-list-item">Diet:</span> Aquatic invertebrates
+            </li>
+
+            <li>
+              <span class="feature-list-item">Unique Feature:</span> Fully
+              aquatic, has no tongue
+            </li>
+
+            <li>
+              <span class="feature-list-item">Conservation Status:</span>
+              Critically Endangered
+            </li>
+          </ul>
+        </article>
+
+        <article class="description-card">
+          <header>
+            <img
+              class="specimen-image"
+              src="ivory_coast_reed_frog.jpeg"
+              alt="Live specimen of Ivory Coast Reed Frog"
+            />
+
+            <h3>Ivory Coast Reed Frog (Hyperolius soror)</h3>
+          </header>
+
+          <ul class="feature-list">
+            <li>
+              <span class="feature-list-item">Size:</span> 2-4 cm (0.8-1.6 in)
+            </li>
+
+            <li>
+              <span class="feature-list-item">Habitat:</span> Wetlands & forests
+              in Ivory Coast and Ghana
+            </li>
+
+            <li><span class="feature-list-item">Diet:</span> Insects</li>
+
+            <li>
+              <span class="feature-list-item">Unique Feature:</span> Changes
+              color from green during the day to brown at night
+            </li>
+
+            <li>
+              <span class="feature-list-item">Conservation Status:</span> Least
+              Concern
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
   </body>
 </html>
